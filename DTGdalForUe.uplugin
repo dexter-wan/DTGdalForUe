@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"EngineVersion": "5.3",
+	"FriendlyName": "DTGdalForUe",
+	"Description": "GDAL plugin for Unreal Engine on Windows",
+	"Category": "Other",
+	"CreatedBy": "DT",
+	"CreatedByURL": "https://github.com/dexter-wan/DTGdalForUe",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "DTGdalForUe",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit"
+		}
+	]
+}
