@@ -1,4 +1,6 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Copyright 2024 Dexter.Wan. All Rights Reserved. 
+// EMail: 45141961@qq.com
+// Website: https://dt.cq.cn/
 
 using System;
 using System.IO;
