@@ -36,7 +36,7 @@ public:
 	GDALUniquePtr(const FString& FileName, bool OpenEx = false);
 	GDALUniquePtr(GDALDataset* p) { Object = p; }
 	~GDALUniquePtr() { Close(); }
-	inline const bool IsValid() const { return Object != nullptr; }
+	inline bool IsValid() const { return Object != nullptr; }
 	inline GDALDataset * operator->() const { return Object; }
 	inline void Close() { if( Object != nullptr ) { GDALClose(Object); Object = nullptr; } }
 };
