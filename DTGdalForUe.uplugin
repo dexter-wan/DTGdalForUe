@@ -2,7 +2,7 @@
 	"FileVersion": 3,
 	"Version": 1,
 	"VersionName": "1.0",
-	"EngineVersion": "5.3",
+	"EngineVersion": "5.4",
 	"FriendlyName": "DTGdalForUe",
 	"Description": "GDAL plugin for Unreal Engine on Windows",
 	"Category": "Other",
