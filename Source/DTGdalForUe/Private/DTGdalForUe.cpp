@@ -48,10 +48,8 @@ void FDTGdalForUeModule::StartupModule()
 	const FString ProjPath = ProjResourceDirectory();
 	const std::string szGdalPath = TCHAR_TO_UTF8(*GdalPath);
 	const std::string szProjPath = TCHAR_TO_UTF8(*ProjPath);
-	const char * pszGdalPath = szGdalPath.c_str();
-	const char * pszProjPath = szProjPath.c_str();
-	CPLSetConfigOption("GDAL_DATA", pszGdalPath);
-	CPLSetConfigOption("PROJ_DATA", pszProjPath);
+	CPLSetConfigOption("GDAL_DATA", szGdalPath.c_str());
+	CPLSetConfigOption("PROJ_DATA", szProjPath.c_str());
 	CPLSetConfigOption("GDAL_ALLOW_LARGE_LIBJPEG_MEM_ALLOC", "YES");
 	CPLSetConfigOption("GDAL_FILENAME_IS_UTF8", "YES");
 	CPLSetConfigOption("SHAPE_ENCODING", "CP936");
